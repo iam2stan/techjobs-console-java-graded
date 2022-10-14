@@ -100,7 +100,7 @@ public class JobData {
         // TODO - implement this method
         for(HashMap<String, String> map : allJobs) {
             for (Map.Entry<String, String> entry : map.entrySet()) {
-                if(entry.getValue().contains(value) || entry.getValue().equalsIgnoreCase(value) == true) {
+                if(entry.getValue().contains(value) || entry.getValue().equalsIgnoreCase(value) == true){
                     jobs.add(map);
                 }
             }
